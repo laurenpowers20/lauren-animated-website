@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const links = [
   { url: "/", title: "Home" },
   { url: "/about", title: "About" },
-  { url: "/portfolio", title: "WebDev" },
+  { url: "/portfolio", title: "Portfolio" },
   { url: "/travel", title: "Travel" },
   { url: "/contact", title: "Contact" },
 ];
@@ -72,28 +72,28 @@ const Navbar = () => {
   return (
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
       {/* LINKS */}
-      <div className="hidden md:flex gap-4 w-1/3">
+      <div className="hidden md:flex gap-4 w-1/2">
         {links.map((link) => (
           <NavLink link={link} key={link.title} />
         ))}
       </div>
       {/* LOGO */}
-      <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
+      {/* <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
         <Link
           href="/"
           className="text-sm p-1 font-semibold flex items-center justify-center"
         >
           <Image src="/logo.png" width={24} height={24} alt="logo" />
         </Link>
-      </div>
+      </div> */}
       {/* SOCIAL */}
-      <div className="hidden md:flex gap-4 w-1/3">
+      <div className="hidden md:flex gap-4 w-1/2 justify-end">
         <Link href="https://github.com/laurenpowers20">
-          <Image src="/github.png" alt="" width={24} height={24} />
+          <Image src="/github.png" alt="" width={30} height={30} />
         </Link>
 
         <Link href="https://www.linkedin.com/in/lauren-powers20/">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
+          <Image src="/linkedin.png" alt="" width={30} height={30} />
         </Link>
       </div>
       {/* RESPONSIVE MENU */}
@@ -133,7 +133,9 @@ const Navbar = () => {
                 className=""
                 key={link.title}
               >
-                <Link href={link.url}>{link.title}</Link>
+                <Link className="flex" href={link.url}>
+                  {link.title}
+                </Link>
               </motion.div>
             ))}
           </motion.div>
