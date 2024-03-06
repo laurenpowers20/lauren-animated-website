@@ -22,8 +22,7 @@ const Homepage = () => {
           <h1 className="text-4xl md:text-6xl font-bold">Lauren Powers</h1>
           {/* DESC */}
           <p className="md:text-xl">
-            Here's a little paragraph about what I do. I do a lot of things. I
-            do valuable work.
+            Web Developer | Travel Enthusiast | Financial Operations
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4"></div>
