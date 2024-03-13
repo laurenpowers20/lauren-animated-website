@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-const Portfolio = () => {
+const Services = () => {
   return (
     <motion.div
       className="h-full"
@@ -10,9 +10,9 @@ const Portfolio = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <h1>Portfolio</h1>
+      <h1>Services</h1>
     </motion.div>
   );
 };
 
-export default Portfolio;
+export default Services;

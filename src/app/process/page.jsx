@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-const Travel = () => {
+const Process = () => {
   return (
     <motion.div
       className="h-full"
@@ -15,4 +15,4 @@ const Travel = () => {
   );
 };
 
-export default Travel;
+export default Process;
