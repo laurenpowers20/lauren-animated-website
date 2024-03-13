@@ -67,22 +67,26 @@ const Contact = () => {
           ref={form}
           className="h-1/2 lg:h-full lg:w-1/2 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
         >
-          <span>Name:</span>
-          <textarea
-            rows={4}
-            className="bg-gray-300 border-b-2 border-b-black outline-none resize-none"
-            name="user_name"
-          />
-          <span>Where do you want to go? (If you have somewhere in mind!)</span>
-          <textarea
+          <label>
+            Name:
+            <input
+              type="text"
+              name="user_name"
+              className=" border-b-2 border-black outline-none"
+            />
+          </label>
+          <label>
+            Where do you want to go? (If you have somewhere in mind!)
+          </label>
+          <input
             type="text"
-            // className="bg-gray-300 border-b-2 border-b-black outline-none"
+            className=" border-b-2 border-black outline-none"
             name="user_destination"
           />
           <span>E-mail:</span>
           <input
             name="user_email"
-            type="text"
+            type="email"
             className="bg-gray-300 border-b-2 border-b-black outline-none"
           />
 
