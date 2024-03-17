@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+
 import { useState } from "react";
 import NavLink from "./navLink";
 import { motion } from "framer-motion";
@@ -77,25 +78,12 @@ const Navbar = () => {
           <NavLink link={link} key={link.title} />
         ))}
       </div>
-      {/* LOGO */}
-      {/* <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
-        <Link
-          href="/"
-          className="text-sm p-1 font-semibold flex items-center justify-center"
-        >
-          <Image src="/logo.png" width={24} height={24} alt="logo" />
-        </Link>
-      </div> */}
-      {/* SOCIAL */}
-      <div className="hidden md:flex gap-4 w-1/2 justify-end">
-        <Link href="https://github.com/laurenpowers20">
-          <Image src="/github.png" alt="" width={30} height={30} />
-        </Link>
 
-        <Link href="https://www.linkedin.com/in/lauren-powers20/">
-          <Image src="/linkedin.png" alt="" width={30} height={30} />
-        </Link>
-      </div>
+      {/* SOCIAL */}
+      <Link href="https://www.instagram.com/travel.with.powers/">
+        <Image src="/instagram.png" alt="" width={35} height={35} />
+      </Link>
+
       {/* RESPONSIVE MENU */}
       <div className="md:hidden">
         {/* MENU BUTTON */}
@@ -125,12 +113,12 @@ const Navbar = () => {
             variants={listVariants}
             initial="closed"
             animate="opened"
-            className="absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl z-40"
+            className="absolute top-0 left-0 w-screen h-screen bg-black flex flex-col items-center justify-center gap-8 text-4xl z-40 text-white"
           >
             {links.map((link) => (
               <motion.div
                 variants={listItemVariants}
-                className=""
+                className="font-rakkasReg "
                 key={link.title}
               >
                 <Link className="flex" href={link.url}>

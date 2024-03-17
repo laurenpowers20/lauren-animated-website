@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "latoReg";
+  src: url(../../public/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: "rakkasReg";
+  src: url(../../public/Rakkas/Rakkas-Regular.ttf);
+}

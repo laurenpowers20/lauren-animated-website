@@ -7,6 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        neonYellow: {
+          500: "#fbff12",
+        },
+        neonPink: {
+          500: "#FF206E",
+        },
+        neonBlue: {
+          500: "#41EAD4",
+        },
+      },
+      fontFamily: {
+        latoReg: "latoReg",
+        rakkasReg: "rakkasReg",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
