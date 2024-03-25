@@ -8,11 +8,11 @@ import NavLink from "./navLink";
 import { motion } from "framer-motion";
 
 const links = [
-  { url: "/", title: "Home" },
-  { url: "/about", title: "About" },
-  { url: "/services", title: "Services" },
-  { url: "/process", title: "Process" },
-  { url: "/contact", title: "Contact" },
+  { url: "/", title: "HOME" },
+  { url: "/about", title: "ABOUT" },
+  { url: "/services", title: "SERVICES" },
+  { url: "/blog", title: "BLOG" },
+  { url: "/contact", title: "CONTACT" },
 ];
 
 const Navbar = () => {
@@ -54,7 +54,7 @@ const Navbar = () => {
       x: 0,
       transition: {
         when: "beforeChildren",
-        staggerChildren: 0.2,
+        staggerChildren: 0.1,
       },
     },
   };
@@ -73,7 +73,7 @@ const Navbar = () => {
   return (
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
       {/* LINKS */}
-      <div className="hidden md:flex gap-4 w-1/2">
+      <div className="hidden md:flex gap-4 font-ovo w-1/2">
         {links.map((link) => (
           <NavLink link={link} key={link.title} />
         ))}
@@ -113,15 +113,15 @@ const Navbar = () => {
             variants={listVariants}
             initial="closed"
             animate="opened"
-            className="absolute top-0 left-0 w-screen h-screen bg-black flex flex-col items-center justify-center gap-8 text-4xl z-40 text-white"
+            className="absolute top-0 left-0 w-screen h-screen bg-black flex flex-col items-center justify-center gap-8 text-4xl z-40 text-neonPink-500 "
           >
             {links.map((link) => (
               <motion.div
                 variants={listItemVariants}
-                className="font-rakkasReg "
+                className="font-ovo "
                 key={link.title}
               >
-                <Link className="flex" href={link.url}>
+                <Link className="flex " href={link.url}>
                   {link.title}
                 </Link>
               </motion.div>

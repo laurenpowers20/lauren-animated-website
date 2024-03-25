@@ -11,3 +11,7 @@
   font-family: "rakkasReg";
   src: url(../../public/Rakkas/Rakkas-Regular.ttf);
 }
+@font-face {
+  font-family: "ovo";
+  src: url(../../public/Ovo/Ovo-Regular.ttf);
+}

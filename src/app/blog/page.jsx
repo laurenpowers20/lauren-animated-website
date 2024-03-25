@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-const Process = () => {
+const Blog = () => {
   return (
     <motion.div
       className="h-full"
@@ -10,9 +10,9 @@ const Process = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <h1>Travel</h1>
+      <h1>Blog</h1>
     </motion.div>
   );
 };
 
-export default Process;
+export default Blog;

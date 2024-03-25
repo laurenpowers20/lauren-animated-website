@@ -21,6 +21,7 @@ module.exports = {
       fontFamily: {
         latoReg: "latoReg",
         rakkasReg: "rakkasReg",
+        ovo: "ovo",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -19,7 +19,9 @@ const Homepage = () => {
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
-          <h1 className="text-4xl md:text-6xl font-latoReg">Lauren Powers</h1>
+          <h1 className="text-4xl md:text-6xl font-ovo justify-center">
+            LAUREN POWERS
+          </h1>
 
           {/* DESC */}
           <h2 className="md:text-xl flex">
@@ -31,10 +33,8 @@ const Homepage = () => {
               height={55}
               className="object-contain pr-2"
             />
-            Travel Advisor
+            TRAVEL ADVISOR
           </h2>
-          {/* BUTTONS */}
-          <div className="w-full flex gap-4"></div>
         </div>
       </div>
     </motion.div>
