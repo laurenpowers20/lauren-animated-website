@@ -11,7 +11,7 @@ const links = [
   { url: "/", title: "HOME" },
   { url: "/about", title: "ABOUT" },
   { url: "/services", title: "SERVICES" },
-  { url: "/blog", title: "BLOG" },
+
   { url: "/contact", title: "CONTACT" },
 ];
 
@@ -113,7 +113,7 @@ const Navbar = () => {
             variants={listVariants}
             initial="closed"
             animate="opened"
-            className="absolute top-0 left-0 w-screen h-screen bg-black flex flex-col items-center justify-center gap-8 text-4xl z-40 text-neonPink-500 "
+            className="absolute top-0 left-0 w-screen h-screen bg-black flex flex-col items-center justify-center gap-8 text-4xl z-40  text-neonPink-500 "
           >
             {links.map((link) => (
               <motion.div

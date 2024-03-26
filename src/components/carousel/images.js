@@ -37,5 +37,13 @@ const images = [
     id: 7,
     imageSrc: "https://i.imgur.com/XztZhsm.jpeg",
   },
+  {
+    id: 8,
+    imageSrc: "https://i.imgur.com/rqXIYBp.jpg",
+  },
+  {
+    id: 9,
+    imageSrc: "https://i.imgur.com/As6zJvM.jpeg",
+  },
 ];
 export default images;
