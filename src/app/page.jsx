@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 const Homepage = () => {
@@ -16,7 +16,7 @@ const Homepage = () => {
         >
           <div className="absolute inset-0">
             <img
-              src="https://images.pexels.com/photos/910012/pexels-photo-910012.jpeg"
+              src="/sunset.jpg"
               alt="Background Image"
               className="object-cover object-center w-full h-full"
             />
@@ -29,12 +29,20 @@ const Homepage = () => {
             <p className="text-lg text-gray-300 mb-8">
               Your gateway to the world
             </p>
-            <a
-              href="#"
-              className="bg-white text-gray-900 hover:bg-neonPink-500 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
+
+            <Link
+              href="/contact"
+              className="bg-white text-gray-900 hover:bg-yellow-200 px-5 rounded-full text-lg flex font-semibold transition duration-300 ease-in-out font-latoReg justify-center items-center transform hover:scale-105 hover:shadow-lg"
             >
-              Get Started
-            </a>
+              Get Started{" "}
+              <Image
+                src="/plane.png"
+                className="m-2 justify-center items-center"
+                alt=""
+                width={35}
+                height={35}
+              />
+            </Link>
           </div>
         </motion.div>
       </div>
