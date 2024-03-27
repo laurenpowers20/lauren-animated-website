@@ -1,8 +1,5 @@
 "use client";
-
-import { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
 import "../../components/carousel/style.scss";
 import Form from "@/components/form/form";
 
