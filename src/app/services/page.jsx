@@ -36,7 +36,7 @@ const Services = () => {
                     </p>
                   </td>
                   <td>
-                    <p className="font-ovo text-1xl md:text-2xl">
+                    <p className="font-ovo text-1xl md:text-2xl  ">
                       Starting at $0*{" "}
                       <p className="text-sm">
                         Free when booking qualifying hotels, resorts, villas,

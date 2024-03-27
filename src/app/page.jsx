@@ -1,51 +1,44 @@
 "use client";
 
 import Image from "next/image";
+
 import { motion } from "framer-motion";
 
 const Homepage = () => {
   return (
-    <motion.div
-      className="h-full"
-      initial={{ y: "-200vh" }}
-      animate={{ y: "0%" }}
-      transition={{ duration: 1 }}
-    >
-      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
-        {/* IMAGE CONTAINER */}
-
-        <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-          <Image src="/hero.png" alt="" fill className="object-contain" />
-        </div>
-
-        {/* TEXT CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
-          {/* TITLE */}
-          <motion.h1
-            className="text-5xl md:text-6xl font-ovo justify-center"
-            h1
-            animate={{ y: 0 }}
-            initial={{ y: "100%" }}
-            transition={{ delay: 0.5, duration: 0.5 }}
-          >
-            LAUREN POWERS
-          </motion.h1>
-
-          {/* DESC */}
-          <h2 className="md:text-xl flex text-latoReg">
-            {" "}
-            <Image
-              src="/fora.png"
-              alt="fora logo"
-              width={55}
-              height={55}
-              className="object-contain pr-2"
+    <div>
+      <div className="relative  h-screen text-white overflow-hidden">
+        <motion.div
+          className="h-full"
+          initial={{ y: "-200vh" }}
+          animate={{ y: "0%" }}
+          transition={{ duration: 1 }}
+        >
+          <div className="absolute inset-0">
+            <img
+              src="https://images.pexels.com/photos/910012/pexels-photo-910012.jpeg"
+              alt="Background Image"
+              className="object-cover object-center w-full h-full"
             />
-            TRAVEL ADVISOR
-          </h2>
-        </div>
+            <div className="absolute inset-0 bg-black opacity-50"></div>
+          </div>
+
+          <div className="relative z-10 flex flex-col justify-center items-center h-full font-ovo text-center">
+            <h1 className="text-6xl  leading-tight mb-4">Lauren Powers</h1>
+            <h2 className="text-5xl leading-tight mb-4">Travel Advisor</h2>
+            <p className="text-lg text-gray-300 mb-8">
+              Your gateway to the world
+            </p>
+            <a
+              href="#"
+              className="bg-white text-gray-900 hover:bg-neonPink-500 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
+            >
+              Get Started
+            </a>
+          </div>
+        </motion.div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
