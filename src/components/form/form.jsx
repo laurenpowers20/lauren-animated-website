@@ -44,9 +44,6 @@ function Form() {
         <label>Your name:</label>
         <input type="text" name="user_name" className="bg-slate-300 h-30 " />
 
-        <label>Where do you want to go? (If you have somewhere in mind!)</label>
-        <input type="text" name="user_destination" className="bg-slate-300 h-30 " />
-
         <label>E-mail:</label>
         <input name="user_email" type="email" className="bg-gray-300 " />
 

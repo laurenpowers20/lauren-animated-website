@@ -15,9 +15,7 @@ const Contact = () => {
         {/* TEXT CONTAINER */}
         <div className="h-1/3 lg:h-full lg:w-1/3 flex items-center justify-center text-6xl">
           <div>
-            <h1 className="text-5xl md:text-6xl font-ovo pb-5 ">
-              Let's Connect
-            </h1>
+            <h1 className="text-5xl md:text-6xl font-ovo ">Let's Connect</h1>
           </div>
         </div>
         {/* FORM CONTAINER */}

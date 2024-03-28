@@ -1,5 +1,5 @@
 "use client";
-
+import Timeline from "@/components/timeline/Timeline";
 import { motion } from "framer-motion";
 
 const Services = () => {
@@ -12,70 +12,42 @@ const Services = () => {
           animate={{ y: "0%" }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-5xl md:text-6xl  justify-center pb-5">
-            Services
-          </h1>
-          <div>
-            <table class="table-auto">
-              <thead>
-                <tr>
-                  <th></th>
-                  <th></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="p-5">
-                    {" "}
-                    <h2 className="pb-5 text-2xl md:text-3xl  justify-center ">
-                      Destination Research
-                    </h2>
-                    <p className=" font-ovo text-1xl md:text-2xl pb-5">
-                      If you know where you want to go and just need help
-                      booking hotels, resorts, villas, and cruises{" "}
-                    </p>
-                  </td>
-                  <td>
-                    <p className="font-ovo text-1xl md:text-2xl  ">
-                      Starting at $0*{" "}
-                      <p className="text-sm">
-                        Free when booking qualifying hotels, resorts, villas,
-                        and cruises
-                      </p>
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="p-5">
-                    {" "}
-                    <h2 className=" text-2xl md:text-3xl  justify-center ">
-                      Activites & More
-                    </h2>
-                    <p className=" font-ovo text-1xl md:text-2xl">
-                      You booked your flight and hotel, but want some
-                      recommendations on activities and restaurant
-                    </p>
-                  </td>
-                  <td className="font-ovo text-1xl md:text-2xl">
-                    Starting at $75
-                  </td>
-                </tr>
-                <tr>
-                  <td className="p-5">
-                    <h2 className=" text-2xl md:text-3xl  justify-center ">
-                      Full Service Hotel & Activities Itinerary
-                    </h2>
-                    <p className=" font-ovo text-1xl md:text-2xl">
-                      Book accommodation, activities, airport transportation
-                    </p>
-                  </td>
-                  <td className="font-ovo text-1xl md:text-2xl">
-                    Starting at $100
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+          <div className="flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+            <p className="p-5 ">
+              There’s a variety of ways we can work together! We can go all-in
+              and I can plan a day-by-day itinerary, or we could collaborate
+              with ideas that you already have.{" "}
+            </p>
+            <div className="cardcontainer justify-center flex gap-5">
+              <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Booking
+                </h5>
+                <div className="font-normal text-gray-700 dark:text-gray-400">
+                  <ul className="list-disc ">
+                    <li>Hotels</li>
+                    <li>Homes/Villas</li>
+                    <li>Restaurants</li>
+                    <li>Cruises</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Itineraries
+                </h5>
+                <div className="font-normal text-gray-700 dark:text-gray-400">
+                  <ul className="list-disc ">
+                    <li>Activities & Events</li>
+                    <li>Dining & Drinking</li>
+                    <li>Transportation</li>
+                    <li>Site-seeing</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
+          <Timeline />
         </motion.div>
       </div>
     </div>
