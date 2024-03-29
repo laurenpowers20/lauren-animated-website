@@ -60,8 +60,8 @@ const Timeline = () => {
 
             <li>
               <div className="content">
-                <h3>Lock it in!</h3>
-                <p> After we collaborate we'll book it and whtaever </p>
+                <h3>Book it!</h3>
+                <p> Once we are done collaborating, we'll proceed to make all the necessary bookings.s</p>
               </div>
               <div className="time">
                 <h4>Step Four</h4>
