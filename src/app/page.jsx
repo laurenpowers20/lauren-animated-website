@@ -16,7 +16,7 @@ const Homepage = () => {
         >
           <div className="absolute inset-0">
             <img
-              src="/sunset.jpg"
+              src="/capri.jpeg"
               alt="Background Image"
               className="object-cover object-center w-full h-full"
             />
@@ -30,7 +30,7 @@ const Homepage = () => {
 
             <Link
               href="/contact"
-              className="bg-white text-gray-900 hover:bg-amber-400 px-5 rounded-full text-lg flex font-semibold transition duration-300 ease-in-out font-latoReg justify-center items-center transform hover:scale-105 hover:shadow-lg"
+              className="bg-white text-gray-900 hover:bg-neonPink-500 px-5 rounded-full text-lg flex font-semibold transition duration-300 ease-in-out font-latoReg justify-center items-center transform hover:scale-105 hover:shadow-lg"
             >
               Get Started{" "}
               <Image

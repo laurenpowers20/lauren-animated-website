@@ -1,8 +1,11 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { wrap } from "popmotion";
+import Image from "next/image";
 import images from "../carousel/images";
 import "./style.scss";
+import left from "../../../public/left.png";
+import right from "../../../public/right.png";
 
 const sliderVariants = {
   incoming: (direction) => ({
@@ -78,8 +81,13 @@ const Carousel = () => {
         </div>
 
         <div className="buttons">
-          <button onClick={() => swipeToImage(-1)}>PREV</button>
-          <button onClick={() => swipeToImage(1)}>NEXT</button>
+          <button onClick={() => swipeToImage(-1)}>
+            <Image src={left} width={30} height={30} />
+          </button>
+          <button onClick={() => swipeToImage(1)}>
+            {" "}
+            <Image src={right} width={30} height={30} />
+          </button>
         </div>
       </div>
       <div className="thumbnails">
