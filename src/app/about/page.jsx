@@ -26,20 +26,20 @@ const About = () => {
           <p className="p-4 font-ovo text-1xl md:text-2xl">
             Once a solo hostel backpacker, I've since transformed into a luxe
             adventurer. My journey has taken me from exploring the cities of
-            Europe, reveling in the world’s finest art museums and vibrant
+            Europe, reveling in the world's finest art museums and vibrant
             nightlife, to immersing myself in the tranquility of nature,
             eco-lodges and sharing unforgettable experiences with my husband by
             my side.
           </p>
 
           <p className="p-4 font-ovo text-1xl md:text-2xl">
-            I’ve planned many trips around the world and I’m eager to pass on my
+            I've planned many trips around the world and I'm eager to pass on my
             knowledge and expertise to others! I love listening to what excites
             people, what activities they like, and what's important to them.
           </p>
 
           <div className="p-5 font-ovo text-1xl md:text-2xl">
-            I have expertise in planning:
+            I have expertise in:
             <ul className="list-disc ml-10 gap-8 columns-2">
               <li>Mexico</li>
               <li>Central America</li>
