@@ -81,7 +81,13 @@ const Navbar = () => {
 
       {/* SOCIAL */}
       <Link href="https://www.instagram.com/travel.with.powers/">
-        <Image src="/instagram.png" alt="" width={35} height={35} />
+        <Image
+          src="/instagram.png"
+          alt=""
+          width={35}
+          height={35}
+    
+        />
       </Link>
 
       {/* RESPONSIVE MENU */}

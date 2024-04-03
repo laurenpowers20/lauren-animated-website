@@ -21,7 +21,7 @@ const About = () => {
             alt="Lauren"
             width={150}
             height={150}
-            className="float-left mr-4 "
+            className="float-left mr-4 border-2 border-neonPink-500 rounded-full"
           />
           <p className="p-4 font-ovo text-1xl md:text-2xl">
             Once a solo hostel backpacker, I've since transformed into a luxe

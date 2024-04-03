@@ -12,39 +12,53 @@ const Services = () => {
           animate={{ y: "0%" }}
           transition={{ duration: 1 }}
         >
-          {" "}
-          <div className="flex flex-col justify-center lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
-            <div className="cardcontainer justify-center flex gap-5">
-              <div className="block max-w-sm p-6 w-64 bg-white border border-gray-200 rounded-lg shadow hover:bg-neonBlue-500 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h1>Services</h1>
+          <div className="flex flex-wrap font-ovo text-black sm:gap-1 lg:gap-6 justify-center mb-10 divide-y-2">
+            <div className="relative flex flex-col mt-6  bg-white shadow-md bg-clip-border rounded-xl w-52">
+              <div className="p-6  ">
+                <h5 className="block mb-2 text-xl antialiased font-semibold leading-snug tracking-normal ">
                   Booking
                 </h5>
-                <div className="font-normal text-gray-700 dark:text-gray-400">
-                  <ul className="list-disc text-1xl md:text-2xl">
-                    <li>Hotels</li>
-                    <li>Homes/Villas</li>
-                    <li>Restaurants</li>
-                    <li>Cruises</li>
-                    <li>Tours</li>
-                  </ul>
-                </div>
+                <ul className="block  text-base antialiased  leading-relaxed text-inherit list-disc">
+                  <li>Hotels</li>
+                  <li>Vacation Packages</li>
+                  <li>Cruises</li>
+                  <li>Homes/Villas</li>
+                  <li>Business</li>
+                  <li>Transportation (airport, car rental)</li>
+                </ul>
               </div>
-              <div className="block max-w-sm p-6 w-64 bg-white border border-gray-200 rounded-lg shadow hover:bg-neonBlue-500 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Itineraries
+            </div>
+
+            <div className="relative flex flex-col mt-6  bg-white shadow-md bg-clip-border rounded-xl w-52 ">
+              <div className="p-6">
+                <h5 className="block mb-2  text-xl antialiased font-semibold leading-snug tracking-normal ">
+                  Tours & Activites
                 </h5>
-                <div className="font-normal text-gray-700 dark:text-gray-400">
-                  <ul className="list-disc text-1xl md:text-2xl">
-                    <li>Activities & Events</li>
-                    <li>Dining & Drinking</li>
-                    <li>Transportation</li>
-                    <li>Site-seeing</li>
-                  </ul>
-                </div>
+                <ul className="block  text-base antialiased leading-relaxed text-inherit list-disc ">
+                  <li>Destination Activities</li>
+                  <li>Group Travel Tours</li>
+                  <li>Safari</li>
+                </ul>
+              </div>
+            </div>
+            <div className="relative flex flex-col mt-6  bg-white shadow-md bg-clip-border rounded-xl w-52 ">
+              <div className="p-6">
+                <h5 className="block mb-2 text-xl antialiased font-semibold leading-snug tracking-normal  ">
+                  Tailored Itineraries
+                </h5>
+                <ul className="block  text-base antialiased  leading-relaxed text-inherit list-disc">
+                  <li>Honeymoons</li>
+                  <li>Group/Solo Travel</li>
+                  <li>Long trips/Quick Getaways</li>
+                </ul>
               </div>
             </div>
           </div>
-          <Timeline />
+
+          <div>
+            <Timeline />
+          </div>
         </motion.div>
       </div>
     </div>

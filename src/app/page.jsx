@@ -36,7 +36,7 @@ const Homepage = () => {
               <Image
                 src="/plane.png"
                 className="m-2 justify-center items-center"
-                alt=""
+                alt="plane icon"
                 width={35}
                 height={35}
               />
