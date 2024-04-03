@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import "../../components/carousel/style.scss";
-// import Form from "@/components/form/form";
+
 import Link from "next/link";
 import Image from "next/image";
 
