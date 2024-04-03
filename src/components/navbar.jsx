@@ -11,7 +11,6 @@ const links = [
   { url: "/", title: "HOME" },
   { url: "/about", title: "ABOUT" },
   { url: "/services", title: "SERVICES" },
-
   { url: "/contact", title: "CONTACT" },
 ];
 

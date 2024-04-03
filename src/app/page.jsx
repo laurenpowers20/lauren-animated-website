@@ -23,11 +23,9 @@ const Homepage = () => {
             <div className="absolute inset-0 bg-black opacity-50"></div>
           </div>
 
-          <div className="relative z-10 flex flex-col justify-center items-center h-full font-ovo text-center">
+          <div className="relative z-10 flex flex-col items-center h-full p-5 font-ovo text-center mt-14">
             <h1 className="text-6xl  leading-tight mb-4">Lauren Powers</h1>
             <h2 className="text-5xl leading-tight mb-4">Travel Advisor</h2>
-            <p className="text-lg text-white mb-8">Your gateway to the world</p>
-
             <Link
               href="/contact"
               className="bg-white text-gray-900 hover:bg-neonPink-500 px-5 rounded-full text-lg flex font-semibold transition duration-300 ease-in-out font-latoReg justify-center items-center transform hover:scale-105 hover:shadow-lg"
