@@ -7,7 +7,7 @@ const Timeline = () => {
   return (
     <div>
       <motion.div
-        className="h-full "
+        className="h-full"
         initial={{ y: "-200vh" }}
         animate={{ y: "0%" }}
         transition={{ duration: 1 }}
@@ -17,7 +17,7 @@ const Timeline = () => {
           <ul>
             <li>
               <div className="content">
-                <h3>Tell me what you're thinking</h3>
+                <h3>Tell me what you&apos;re thinking</h3>
                 <p>
                   First, fill out
                   <Link
@@ -26,11 +26,11 @@ const Timeline = () => {
                   >
                     {" "}
                     this form
-                  </Link>
-                  to get started! It's okay if you're uncertain about the
+                  </Link>{" "}
+                  to get started! It&apos;s okay if you&apos;re uncertain about the
                   specifics of your destination, timing, or travel companions.
-                  All I require to begin is a rough idea of the atmosphere
-                  you&aposre aiming for and a ballpark budget.
+                  All I need to begin is a rough idea of the atmosphere
+                  you&apos;re aiming for and a ballpark budget.
                 </p>
               </div>
               <div className="time">
@@ -40,11 +40,11 @@ const Timeline = () => {
 
             <li>
               <div className="content">
-                <h3>Let's Chat! </h3>
+                <h3>Let&apos;s Chat! </h3>
                 <p>
-                  We'll schedule a time to talk. We'll go a little more in-depth
-                  about your travel style and what you want to get out of your
-                  trip.
+                  We&apos;ll schedule a time to talk. We&apos;ll go a little
+                  more in-depth about your travel style and what you want to get
+                  out of your trip.
                 </p>
               </div>
               <div className="time">
@@ -54,13 +54,13 @@ const Timeline = () => {
 
             <li>
               <div className="content">
-                <h3>I'll start the research </h3>
+                <h3>I&apos;ll start the research </h3>
                 <p>
-                  I'll compile a selection of accommodation options, activities,
-                  restaurants…whatever we've decided you will need. By
-                  exchanging feedback and working together, we'll craft the
-                  ideal itinerary tailored to match your individual travel
-                  preferences.
+                  I&apos;ll compile a selection of accommodation options,
+                  activities, restaurants…whatever we&apos;ve decided you will
+                  need. By exchanging feedback and working together, we&apos;ll
+                  craft the ideal itinerary tailored to match your individual
+                  travel preferences.
                 </p>
               </div>
               <div className="time">
@@ -72,8 +72,8 @@ const Timeline = () => {
               <div className="content">
                 <h3>Book it!</h3>
                 <p>
-                  Once we are done collaborating, well proceed to make all the
-                  necessary bookings.
+                  Once we are done collaborating, we&apos;ll proceed to make all
+                  the necessary bookings.
                 </p>
               </div>
               <div className="time">

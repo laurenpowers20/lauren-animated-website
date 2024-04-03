@@ -24,18 +24,19 @@ const About = () => {
             className="float-left mr-4 border-2 border-neonPink-500 rounded-full"
           />
           <p className="p-4 font-ovo text-1xl md:text-2xl">
-            Once a solo hostel backpacker, I've since transformed into a luxe
-            adventurer. My journey has taken me from exploring the cities of
-            Europe, reveling in the world's finest art museums and vibrant
-            nightlife, to immersing myself in the tranquility of nature,
+            Once a solo hostel backpacker, I&apos;ve since transformed into a
+            luxe adventurer. My journey has taken me from exploring the cities
+            of Europe, reveling in the world&apos;s finest art museums and
+            vibrant nightlife, to immersing myself in the tranquility of nature,
             eco-lodges and sharing unforgettable experiences with my husband by
             my side.
           </p>
 
           <p className="p-4 font-ovo text-1xl md:text-2xl">
-            I've planned many trips around the world and I'm eager to pass on my
-            knowledge and expertise to others! I love listening to what excites
-            people, what activities they like, and what's important to them.
+            I&apos;ve planned many trips around the world and I'm eager to pass
+            on my knowledge and expertise to others! I love listening to what
+            excites people, what activities they like, and what&apos;s important
+            to them.
           </p>
 
           <div className="p-5 font-ovo text-1xl md:text-2xl">

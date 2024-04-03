@@ -38,7 +38,7 @@ const Contact = () => {
               transition={{ delay: 0.5, duration: 0.5 }}
               className="text-5xl md:text-6xl text-black font-ovo "
             >
-              Let's Connect
+              Let&apos;s Connect
             </motion.h1>{" "}
             <h3 className="lg:text-4xl text-2xl lg:text-left text-black font-ovo ">
               Fill out this{" "}
