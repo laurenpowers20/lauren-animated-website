@@ -19,7 +19,7 @@ const Timeline = () => {
               <div className="content">
                 <h3>Tell me what you're thinking</h3>
                 <p>
-                  First, fill out{" "}
+                  First, fill out
                   <Link
                     className="underline"
                     href="https://docs.google.com/forms/d/e/1FAIpQLSd1ya_33-okUHjuiwVUhOZ8Ckn7MezMVD2xKY87l8H_Yg3TSQ/viewform?usp=sf_link"
@@ -33,7 +33,7 @@ const Timeline = () => {
                 </p>
               </div>
               <div className="time">
-                <h4> Step One</h4>{" "}
+                <h4> Step One</h4>
               </div>
             </li>
 
