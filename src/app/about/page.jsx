@@ -33,7 +33,7 @@ const About = () => {
           </p>
 
           <p className="p-4 font-ovo text-1xl md:text-2xl">
-            I&apos;ve planned many trips around the world and I'm eager to pass
+            I&apos;ve planned many trips around the world and I&apos;m eager to pass
             on my knowledge and expertise to others! I love listening to what
             excites people, what activities they like, and what&apos;s important
             to them.
