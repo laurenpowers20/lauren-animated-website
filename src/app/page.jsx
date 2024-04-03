@@ -23,7 +23,7 @@ const Homepage = () => {
             <div className="absolute inset-0 bg-black opacity-50"></div>
           </div>
 
-          <div className="relative z-10 flex flex-col items-center h-full p-5 font-ovo text-center mt-14">
+          <div className="relative z-10 flex flex-col items-center h-full p-5 font-ovo text-center ">
             <h1 className="text-6xl  leading-tight mb-4">Lauren Powers</h1>
             <h2 className="text-5xl leading-tight mb-4">Travel Advisor</h2>
             <Link
