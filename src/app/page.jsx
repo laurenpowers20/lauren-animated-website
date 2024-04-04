@@ -31,7 +31,7 @@ const Homepage = () => {
               href="/contact"
               className="bg-white text-gray-900 hover:bg-neonPink-500 px-5 rounded-full text-lg flex font-semibold transition duration-300 ease-in-out font-ovo justify-center items-center transform hover:scale-105 hover:shadow-lg"
             >
-              let's go{" "}
+              let&apos;s go{" "}
               <Image
                 src="/plane.png"
                 className="m-2 justify-center items-center"

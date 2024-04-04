@@ -1,4 +1,3 @@
-import travelLogo from "../../../public/white.svg";
 import whiteLogo from "../../../public/white.png";
 
 import Image from "next/image";
