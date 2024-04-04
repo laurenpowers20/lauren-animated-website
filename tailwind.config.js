@@ -22,6 +22,7 @@ module.exports = {
         latoReg: "latoReg",
         rakkasReg: "rakkasReg",
         ovo: "ovo",
+        spartan: "spartan",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

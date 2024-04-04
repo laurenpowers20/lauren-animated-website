@@ -15,3 +15,8 @@
   font-family: "ovo";
   src: url(../../public/Ovo/Ovo-Regular.ttf);
 }
+
+@font-face {
+  font-family: "spartan";
+  src: url(../../public/League_Spartan/static/LeagueSpartan-Black.ttf);
+}

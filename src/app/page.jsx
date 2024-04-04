@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Logo from "@/components/logo/Logo";
 
 const Homepage = () => {
   return (
@@ -24,13 +25,13 @@ const Homepage = () => {
           </div>
 
           <div className="relative z-10 flex flex-col items-center h-full p-5 font-ovo text-center ">
-            <h1 className="text-6xl  leading-tight mb-4">Lauren Powers</h1>
-            <h2 className="text-5xl leading-tight mb-4">Travel Advisor</h2>
+            <Logo />
+
             <Link
               href="/contact"
-              className="bg-white text-gray-900 hover:bg-neonPink-500 px-5 rounded-full text-lg flex font-semibold transition duration-300 ease-in-out font-latoReg justify-center items-center transform hover:scale-105 hover:shadow-lg"
+              className="bg-white text-gray-900 hover:bg-neonPink-500 px-5 rounded-full text-lg flex font-semibold transition duration-300 ease-in-out font-ovo justify-center items-center transform hover:scale-105 hover:shadow-lg"
             >
-              Get Started{" "}
+              let's go{" "}
               <Image
                 src="/plane.png"
                 className="m-2 justify-center items-center"
