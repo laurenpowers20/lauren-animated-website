@@ -12,8 +12,10 @@ const Services = () => {
           animate={{ y: "0%" }}
           transition={{ duration: 1 }}
         >
-          <h1>Services</h1>
+          {" "}
+          <h1 className="tracking-tighter">Services</h1>
           <div className="flex flex-wrap font-ovo text-black sm:gap-1 lg:gap-6 justify-center mb-10 divide-y-2">
+            {" "}
             <div className="relative flex flex-col mt-6  bg-white shadow-md bg-clip-border rounded-xl w-52">
               <div className="p-6  ">
                 <h5 className="block mb-2 text-xl antialiased font-semibold leading-snug tracking-normal ">
@@ -29,7 +31,6 @@ const Services = () => {
                 </ul>
               </div>
             </div>
-
             <div className="relative flex flex-col mt-6  bg-white shadow-md bg-clip-border rounded-xl w-52 ">
               <div className="p-6">
                 <h5 className="block mb-2  text-xl antialiased font-semibold leading-snug tracking-normal ">
@@ -55,7 +56,6 @@ const Services = () => {
               </div>
             </div>
           </div>
-
           <div>
             <Timeline />
           </div>

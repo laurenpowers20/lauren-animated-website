@@ -36,7 +36,7 @@ const Contact = () => {
               animate={{ y: 0 }}
               initial={{ y: "100%" }}
               transition={{ delay: 0.5, duration: 0.5 }}
-              className="text-5xl md:text-6xl text-black font-ovo "
+              className="text-5xl md:text-6xl tracking-tighter text-black font-ovo "
             >
               Let&apos;s Connect
             </motion.h1>{" "}

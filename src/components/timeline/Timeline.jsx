@@ -12,7 +12,7 @@ const Timeline = () => {
         animate={{ y: "0%" }}
         transition={{ duration: 1 }}
       >
-        <h1>Process</h1>
+        <h1 className="tracking-tighter">Process</h1>
         <div className="timeline">
           <ul>
             <li>
@@ -27,10 +27,10 @@ const Timeline = () => {
                     {" "}
                     this form
                   </Link>{" "}
-                  to get started! It&apos;s okay if you&apos;re uncertain about the
-                  specifics of your destination, timing, or travel companions.
-                  All I need to begin is a rough idea of the atmosphere
-                  you&apos;re aiming for and a ballpark budget.
+                  to get started! It&apos;s okay if you&apos;re uncertain about
+                  the specifics of your destination, timing, or travel
+                  companions. All I need to begin is a rough idea of the
+                  atmosphere you&apos;re aiming for and a ballpark budget.
                 </p>
               </div>
               <div className="time">

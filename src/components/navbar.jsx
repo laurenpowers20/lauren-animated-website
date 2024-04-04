@@ -8,10 +8,10 @@ import NavLink from "./navLink";
 import { motion } from "framer-motion";
 
 const links = [
-  { url: "/", title: "HOME" },
-  { url: "/about", title: "ABOUT" },
-  { url: "/services", title: "SERVICES" },
-  { url: "/contact", title: "CONTACT" },
+  { url: "/", title: "home" },
+  { url: "/about", title: "about" },
+  { url: "/services", title: "services" },
+  { url: "/contact", title: "contact" },
 ];
 
 const Navbar = () => {
@@ -70,9 +70,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
+    <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-3xl">
       {/* LINKS */}
-      <div className="hidden md:flex gap-4 font-ovo w-1/2">
+      <div className="hidden md:flex gap-4 font-ovo tracking-tighter  w-1/2">
         {links.map((link) => (
           <NavLink link={link} key={link.title} />
         ))}
@@ -112,12 +112,12 @@ const Navbar = () => {
             variants={listVariants}
             initial="closed"
             animate="opened"
-            className="absolute top-0 left-0 w-screen h-screen bg-black flex flex-col items-center justify-center gap-8 text-4xl z-40 text-white "
+            className="absolute top-0 left-0 w-screen h-screen bg-black flex flex-col items-center justify-center gap-8 text-6xl z-40 text-white "
           >
             {links.map((link) => (
               <motion.div
                 variants={listItemVariants}
-                className="font-ovo "
+                className="tracking-tighter font-ovo hover:tracking-wider"
                 key={link.title}
               >
                 <Link className="flex " href={link.url}>

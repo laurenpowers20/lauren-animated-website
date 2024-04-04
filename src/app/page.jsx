@@ -25,8 +25,13 @@ const Homepage = () => {
           </div>
 
           <div className="relative z-10 flex flex-col items-center h-full p-5 font-ovo text-center ">
-            <Logo />
-
+            <div className="p-10">
+              <h1 className="font-spartan tracking-tighter text-6xl ">
+                travel with powers
+              </h1>
+              <p className="text-2xl tracking-widest">travel curated by</p>
+              <p className="text-2xl tracking-widest">lauren powers</p>
+            </div>
             <Link
               href="/contact"
               className="bg-white text-gray-900 hover:bg-neonPink-500 px-5 rounded-full text-lg flex font-semibold transition duration-300 ease-in-out font-ovo justify-center items-center transform hover:scale-105 hover:shadow-lg"

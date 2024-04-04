@@ -13,7 +13,7 @@ const About = () => {
     >
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-          <h1 className="text-5xl md:text-6xl font-ovo justify-center pb-5">
+          <h1 className="text-5xl md:text-6xl font-ovo tracking-tighter justify-left pb-5">
             About Lauren
           </h1>
           <Image
