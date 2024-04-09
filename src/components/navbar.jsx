@@ -117,7 +117,7 @@ const Navbar = () => {
             {links.map((link) => (
               <motion.div
                 variants={listItemVariants}
-                className="tracking-tighter font-ovo hover:tracking-wider"
+                className="tracking-tighter font-ovo "
                 key={link.title}
               >
                 <Link className="flex " href={link.url}>
